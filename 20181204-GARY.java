@@ -1,6 +1,7 @@
 public class Hiddenword{
 
 public String HW；
+
 public String Guess；
 
 public Hiddenword(String HW){
