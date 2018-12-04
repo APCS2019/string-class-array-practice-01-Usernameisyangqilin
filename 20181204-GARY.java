@@ -1,22 +1,22 @@
 public class Hiddenword{
 
-public String HW；
-public String Guess；
+public String puzzle；
 
 public Hiddenword(String HW){
+HW=puzzle;
 }
 
-public String getHint(String Guess){
+public String getHint(String guess ){
 
-for(i = 0; i<HW.length;i++){
-if(HW.getIndexOf(i)equals(Guess.getIndexOf(i))
-HW.getIndexOf(i).equalTo(Guess.getIndexOf(i));
+for(i = 0; i<puzzle.length;i++){
+if(HW.substring(i).equalTo(guess.substring(i，i+1))
+HW.substring(i,i+1).equalTo(guess.substring(i，i+！));
 
-else if(HW.getIndexOf(i).equals(!Guess.getIndexOf(i))
-HW.getIndexOf(i).equalTo("+");
+else if(HW.substring(i,i+1)！equalTo(guess.substring(i，i+1))
+HW.substring(i,i+1).equalTo("+");
 
 else
-HW.getIndexOf(i).equalTo("*");
+HW.substring(i,i+1).equalTo("*");
 
 }
 
